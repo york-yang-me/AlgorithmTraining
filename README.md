@@ -1,0 +1,2 @@
+# AlgorithmTraining
+sort out algorithm
