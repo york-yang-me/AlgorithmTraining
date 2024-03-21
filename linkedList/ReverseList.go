@@ -8,12 +8,11 @@ package linkedlist
 	更新 newHead 为 pHead，将完成反转的节点加入链表
 	更新 pHead，继续反转还未反转的链表
 **/
-/*
- * type ListNode struct{
- *   Val int
- *   Next *ListNode
- * }
- */
+
+type ReverseListNode struct {
+	Val  int
+	Next *ReverseListNode
+}
 
 /**
  * 代码中的类名、方法名、参数名已经指定，请勿修改，直接返回方法规定的值即可
@@ -24,12 +23,12 @@ package linkedlist
  * @param pHead ListNode类
  * @return ListNode类
  */
-func ReverseList(pHead *ListNode) *ListNode {
+func ReverseList(pHead *ReverseListNode) *ReverseListNode {
 	// write code here
 	if pHead == nil || pHead.Next == nil {
 		return pHead
 	}
-	var newHead *ListNode
+	var newHead *ReverseListNode
 	// for pHead != nil {
 	// 	pNext := pHead.Next
 	// 	pHead.Next = newHead
