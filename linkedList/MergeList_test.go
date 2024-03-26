@@ -20,7 +20,8 @@ func TestMergeList(t *testing.T) {
 	wantList := createLinkedList([]int{1, 2, 3, 4, 5, 6})
 
 	// result := MergeList(pHead1, pHead2)
-	result := MergeListNoSort(pHead1, pHead2)
+	// result := MergeListNoSort(pHead1, pHead2)
+	result := MergeListRecursive(pHead1, pHead2)
 
 	if !reflect.DeepEqual(wantList, result) {
 		t.Errorf("test failed")
