@@ -33,7 +33,7 @@ func ReverseList(pHead *ReverseListNode) *ReverseListNode {
 	// 	pNext := pHead.Next
 	// 	pHead.Next = newHead
 	// 	newHead = pHead
-	// 	pHead.Next = pNext
+	// 	pHead = pNext
 	// }
 	//	平行赋值语法
 	for pHead != nil {
