@@ -1,4 +1,4 @@
-package qs
+package stack
 
 var stack1 []int
 var stack2 []int
@@ -15,7 +15,6 @@ func Push(node int) {
 	} else {
 		stack2 = append(stack2, node)
 	}
-	return
 }
 func Pop() {
 	// write code here

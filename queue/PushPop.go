@@ -1,4 +1,4 @@
-package qs
+package queue
 
 var stack1 []int
 var stack2 []int
