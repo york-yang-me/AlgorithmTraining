@@ -8,6 +8,7 @@ import (
 
 /***
 	混合字符串 按非负整数降序 找第K个数
+	比如“a12b03c3d0”,除去字母的数组就为[12 3 3 0],找第3个数的话就输出3。
 ***/
 
 func FindKthLargestNumber(s string, k int) int {
