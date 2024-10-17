@@ -13,7 +13,7 @@ package writtentest
 	例子说明：
 	调换过程是：第一次调换：GGBGB , 第二次调换：GGGBB
 */
-func lineup(peoples string) int {
+func Lineup(peoples string) int {
 	// 计算酱所有男生（B)移动到左边的最少交换次数
 	swapsB, countB := 0, 0
 	for _, ch := range peoples {
