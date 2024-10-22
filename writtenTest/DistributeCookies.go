@@ -92,3 +92,10 @@ func DistributeCookies() { // func main()
 
 	fmt.Println(totalCookies)
 }
+
+func max(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}
