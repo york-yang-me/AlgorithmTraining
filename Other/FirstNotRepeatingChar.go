@@ -1,4 +1,4 @@
-package writtentest
+package other
 
 func FirstNotRepeatingChar(str string) int {
 	m := map[string]int{}
